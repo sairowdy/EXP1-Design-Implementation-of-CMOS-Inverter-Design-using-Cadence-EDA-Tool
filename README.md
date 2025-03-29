@@ -1,20 +1,20 @@
-Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
+Ex No: 01     **Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools  ** 
 
-Aim:
+**Aim:**
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
-Tools Required:
+**Tools Required:**
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
+**S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION **-Commands to get into Cadence
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
-Procedure for Schematic simulation using Cadence
+**Procedure for Schematic simulation using Cadence**
 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
@@ -26,7 +26,7 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
-i)	Procedure for Creating New Library.
+**i)	Procedure for Creating New Library.**
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
@@ -76,12 +76,8 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
-
-![Uploading IMG-20250228-WA0007.jpg…]()
-
-
  
-Analog simulation by SPECTRE.
+**Analog simulation by SPECTRE.**
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -103,16 +99,11 @@ For Transient Analysis Settings and Output
 
  For DC Analysis Settings and Output
 
-![Uploading IMG-20250228-WA0008.jpg…]()
-
  
 
 
 
-
- 
-
-Results:
+**Results:**
 1.	Successfully designed the CMOS inverter schematic using Cadence EDA tools.
 2.	The simulation results demonstrated the correct logic operation of the inverter, where the output voltage switches between high (Vdd) and low (0V) levels, corresponding to the input voltage transitions.
 3.	The Voltage Transfer Characteristic (VTC) curve was plotted, showing the relationship between input and output voltages.
